@@ -17,8 +17,14 @@ print(customer)
 customer["tier"] = "platinum" # Updating the value of an existing key
 del customer["Name"]
 print(customer)
-print("--- Exercise  3 ---")
+print(customer.get("ytp_spend", 0))
 
+print("--- Exercise  3 ---")
+print(customer.get("email", "no email on file"))
+try:
+    print(customer["email"])
+except KeyError as error:
+    print("KeyError caught: ", error)
 
 print("--- Exercise  4 ---")
 
