@@ -5,9 +5,9 @@
 #    notation allows you to check for errors or missing data. In the same example, you
 #    could choose to remove customers without a phone number and later mandate it so
 #    the program will be able to continue printing with no exceptions.
-# 2. 
-#    
-#    
+# 2. Exercise 8 reminded me of math functions in excel like SUMIF(). The Python version
+#    is able to handle large data sets containing millions of data, which would take too
+#    long for Excel to handle.
 
 # --- Exercise  1 ---
 print("--- Exercise  1 ---")
