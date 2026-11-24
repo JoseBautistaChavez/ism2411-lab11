@@ -3,4 +3,4 @@
 Jose Bautista-Chavez
 
 To run this project:
-python.customer.py
+python customer.py
